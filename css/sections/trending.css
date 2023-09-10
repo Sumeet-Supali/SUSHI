@@ -1,0 +1,111 @@
+.trending{
+   min-height: 700px;
+    overflow: hidden;
+}
+
+.trending__content-top-left-heading{
+    font-family: var(--Plus Jakarta Sans);
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.trending__content-top-left-subheading{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.trending__content-top-left-description{
+    margin: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--playfair-display);
+}
+
+.trending__content-top{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+   
+    justify-content: space-around;
+    
+}
+.trending__content-top-left{
+    padding: 50px;
+    margin-top: 28px;
+    flex: 1;
+    text-align:justify;
+    font-size: 20px;
+}
+.list_left-name,.list_right-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    font-weight: 600;
+    font-family: var(--playfair-display);
+}
+.list_left-name img,.list_right-name img{
+    border-radius: 50%;
+    height: 15px;
+
+}
+.list_left-name img,.list_right-name img{
+    margin-top: 4px;
+}
+.list_left-name p,.list_right-name p{
+    margin-left: 12px;
+}
+.trending__content-top-left-list{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+   
+    justify-content: space-around;
+}
+.trending__content-top-left-list img{
+    background-color: var(--primary-color);
+}
+
+
+.trending__content-top-right{
+    background-color: aliceblue;
+    flex: 1;
+    margin-top: 28px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+.trending__content-top-right img{
+    width: 300px;
+    height: 288px;
+}
+
+.Discover{
+    position: absolute;
+    font-family: var(--plus-jakarta-sans);
+    height: 100px;
+    bottom: -309%;
+    margin-left: 39%;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bottom-right{
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}

@@ -1,0 +1,47 @@
+.footer_section{
+    background-color: rgb(211, 204, 148);
+    padding: 40px;
+}
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    text-align: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.footer__content-navs{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+    flex-wrap: wrap;
+}
+.footer__navs{
+    gap: 10px;
+    margin: 12px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer__icons {
+    margin-top: 10px; 
+    flex-wrap: wrap;
+}
+
+/* Style individual FontAwesome icons */
+.footer__icons i {
+    font-size: 24px; /* Icon font size */
+    margin: 0 10px; /* Spacing between icons */
+    color: #fff; /* Icon color */
+}
+.footer__content-title{
+    font-size: 20px;
+    font-family: var(--plus-jakarta-sans);
+}
+
+.footer__content-title span{
+    color: var(--primary-color);
+}
+

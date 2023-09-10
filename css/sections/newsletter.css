@@ -1,0 +1,68 @@
+.message{
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.message__content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+
+
+.message__content-heading{
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 900;
+    padding: 30px;
+}
+
+.message__content-title{
+    font-family: var(--plus-jakarta-sans);
+}
+
+.message__content-subscribe{
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+.message__content-details{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+    margin-left:25%;
+    flex-direction: row;
+    justify-content: center;
+    padding:  30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+.message__content-details input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: aliceblue;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    background-color: var(--primary-color);
+}
+.message__content-details input[type="text"]::placeholder {
+    color: white; /* Set the placeholder text color to white */
+}
+.message__content-details button{
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+
+}
